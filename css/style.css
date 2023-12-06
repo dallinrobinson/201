@@ -1,0 +1,82 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(2, 111, 111);
+    background-image: url(https://files.1-background.com/images/ultraviolet/ultraviolet-bubbles-seamless.jpg);
+    color: lightgoldenrodyellow;
+}
+
+a {
+    color: lightcoral;
+}
+
+a:visited {
+    color: gray;
+}
+
+img {
+    display: block;
+    border: solid peachpuff 3px;
+    padding: 4px;
+    margin: auto;
+    /*centers image with block display*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.image-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 4px;
+    margin: auto;
+    /*centers image with block display*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.image-container img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.image-container .hover-image {
+    opacity: 0;
+}
+
+.image-container:hover .normal-image {
+    opacity: 0;
+    transform: scale(1.1); /* Increase the scale to make it larger on hover */
+}
+
+.image-container:hover .hover-image {
+    opacity: 1;
+}
+
+
+h6 {
+    border: dashed orange 3px;
+    text-align: center;
+}
+
+.riz {
+    font-family: 'Comic Sans', 'Chiller';
+    color: silver;
+    font-size: xx-large;
+    font-style: italic;
+    border: 3px yellow dotted;
+    background-color: black;
+}
+
+.riz:hover {
+    text-decoration: line-through;
+    font-size: 300%;
+    background-color: goldenrod;
+    border: solid fuchsia 10px;
+}
+
+.smallimg{
+    width: 25%;
+}
